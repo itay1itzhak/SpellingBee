@@ -177,7 +177,7 @@ python train.py --fp16 $DATA_DIR \
     --validate-interval-updates 500 --skip-invalid-size-inputs-valid-test  --encoder-normalize-before \
     --model-to-load-embeddings spellingbee_pretrained \
     --path-to-load-embeddings checkpoints/pretrained_by_spellingBee_$MODEL_NAME/checkpoint_last.pt \
-    --save-dir /home/olab/itayitzhak/bpeplus/fairseq/checkpoints/$MODEL_NAME_pre_training
+    --save-dir checkpoints/$MODEL_NAME_pre_training
 ```
 ## License
 
